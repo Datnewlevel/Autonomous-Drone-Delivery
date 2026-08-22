@@ -1,0 +1,97 @@
+# ---------------------------------------------------------------------------
+# Deny by default.
+#
+# This repository is a public write-up only. No source code, no flight logs,
+# no vehicle parameters, no calibration data. Everything is ignored unless it
+# is explicitly re-allowed below, so a stray file copied into this folder is
+# invisible to git until someone deliberately allows it.
+# ---------------------------------------------------------------------------
+
+*
+
+# --- allowed: the write-up itself ---
+!.gitignore
+!README.md
+!LICENSE
+
+# --- allowed: images used by the README (directory first, then contents) ---
+!assets/
+!assets/*.png
+!assets/*.jpg
+!assets/*.jpeg
+!assets/*.gif
+!assets/*.svg
+!assets/*.webp
+
+!docs/
+!docs/**/
+!docs/**/*.md
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.svg
+
+# ---------------------------------------------------------------------------
+# Second layer. Even inside an allowed folder, these never go up -- protects
+# against a source file or a log dropped into assets/ or docs/ by accident.
+# ---------------------------------------------------------------------------
+
+*.py
+*.pyc
+*.ipynb
+*.sh
+*.bat
+*.ps1
+*.c
+*.cpp
+*.h
+*.hpp
+
+*.csv
+*.tsv
+*.log
+*.bin
+*.tlog
+*.BIN
+*.ulg
+*.db
+*.sqlite3
+
+*.param
+*.parm
+*.waypoints
+*.mission
+*.npz
+*.npy
+*.yaml
+*.yml
+*.json
+*.xml
+*.sdf
+*.urdf
+
+*.mp4
+*.mkv
+*.avi
+*.h264
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+*.pem
+*.key
+*.crt
+*.env
+.env*
+*credentials*
+*secret*
+id_rsa*
+id_ed25519*
+
+__pycache__/
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
