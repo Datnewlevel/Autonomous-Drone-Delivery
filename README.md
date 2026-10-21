@@ -6,6 +6,13 @@
 
 ---
 
+## Media coverage
+
+The project was featured by the international channel **Vietnam Today**:
+[watch the Vietnam Today feature on Facebook](https://web.facebook.com/reel/2545720022595288?locale=vi_VN).
+
+---
+
 A custom quadcopter that flies a waypoint mission on its own, finds a printed
 landing pad with a downward camera, corrects its own position and heading until
 it is centred over the pad, lands on it, and releases its cargo — then reports
@@ -618,13 +625,6 @@ engineering journal — every decision, every measurement, every wrong turn and
 what it cost. Months later it is the difference between building on a decision
 and relitigating it. By a wide margin, it is the highest-return habit in the
 whole project.
-
----
-
-## Media coverage
-
-The project was featured by the international channel **Vietnam Today**:
-[watch the Vietnam Today feature on Facebook](https://web.facebook.com/reel/2545720022595288?locale=vi_VN).
 
 ---
 
