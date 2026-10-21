@@ -621,6 +621,13 @@ whole project.
 
 ---
 
+## Media coverage
+
+The project was featured by the international channel **Vietnam Today**:
+[watch the Vietnam Today feature on Facebook](https://web.facebook.com/reel/2545720022595288?locale=vi_VN).
+
+---
+
 ## Status
 
 **Working and flown outdoors:** autonomous waypoint missions; handover from GPS
